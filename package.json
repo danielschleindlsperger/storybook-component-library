@@ -1,0 +1,56 @@
+{
+  "name": "storybook-component-library",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Components.",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "rollup -c",
+    "prepublish": "npm t && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "peerDependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/addon-actions": "^4.1.7",
+    "@storybook/addon-links": "^4.1.7",
+    "@storybook/addons": "^4.1.7",
+    "@storybook/react": "^4.1.7",
+    "@types/classnames": "^2.2.7",
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "@types/storybook__addon-actions": "^3.4.1",
+    "@types/storybook__react": "^4.0.0",
+    "babel-loader": "^8.0.5",
+    "classnames": "^2.2.6",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-docgen-typescript-loader": "^3.0.0",
+    "react-dom": "^16.7.0",
+    "rollup": "^1.1.1",
+    "rollup-plugin-collect-sass": "^1.0.9",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.4",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}

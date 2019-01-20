@@ -1,0 +1,13 @@
+.storybook-layout-row {
+  display: flex;
+  align-items: flex-end;
+  width: auto;
+
+  > * {
+    flex-shrink: 0;
+
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
+}
