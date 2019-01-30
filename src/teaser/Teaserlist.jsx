@@ -1,7 +1,7 @@
 import React from 'react'
 import T from 'prop-types'
 import { Box } from 'rebass'
-import { TeaserText, TeaserTop } from '.'
+import { TeaserText, TeaserTop } from './Teaser'
 
 const TeaserWithProps = ({ type, ...props }) =>
   type === 'teaser-text' ? (
