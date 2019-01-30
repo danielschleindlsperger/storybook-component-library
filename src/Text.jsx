@@ -1,29 +1,11 @@
 import React from 'react'
-import { Text as BaseText } from 'rebass'
+import { Text as BaseText, Heading } from 'rebass'
+import { sansSerif } from './text-mixins'
 
-export const SansSerif = props => (
-  <BaseText
-    css={{
-      fontFamily: '"SZSansDigital", "Neue Helvetica", Helvetica, sans-serif',
-    }}
-    {...props}
-  />
-)
+export const Headline = props => <Heading as="h1" css={{ ...sansSerif }} {...props} />
 
-export const Serif = props => (
-  <BaseText
-    css={{
-      fontFamily: '"SZ Serif", "SZ Text", Georgia, Times, serif',
-    }}
-    {...props}
-  />
-)
+Headline.propTypes = { ...Heading.propTypes }
 
-export const Text = props => (
-  <BaseText
-    css={{
-      fontFamily: '"SZ Text", Georgia, Times, serif',
-    }}
-    {...props}
-  />
-)
+export const Text = props => <BaseText as="p" css={{ ...sansSerif }} {...props} />
+
+Text.propTypes = { ...BaseText.propTypes }

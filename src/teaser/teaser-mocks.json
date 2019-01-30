@@ -1,0 +1,33 @@
+[
+  {
+    "type": "teaser-top",
+    "url": "https://www.sueddeutsche.de/politik/six-venezuela-maduro-1.4308863",
+    "hasSeparatorLine": false,
+    "belowLeadStory": true,
+    "imageUrl": "https://media-cdn.sueddeutsche.de/image/sz.1.3692341",
+    "overline": "Zweitages-Bergtour im Karwendel",
+    "title": "Allein unter Gämsen",
+    "summary": "Im Herbst ist die schönste Zeit zum Wandern - und um im Karwendel über dem Rißtal Gämsen zu beobachten. Vorausgesetzt man weiß, wo die Tiere nicht vom Trubel verscheucht werden."
+  },
+  {
+    "type": "teaser-text",
+    "url": "https://www.sueddeutsche.de/politik/brexit-eu-may-bruessel-1.4309198",
+    "hasSeparatorLine": true,
+    "imageUrl": "https://media-cdn.sueddeutsche.de/image/sz.1.3693733",
+    "labels": ["szplus"],
+    "overline": "Reisequiz der Woche",
+    "title": "Was wissen Sie wirklich über Neuengland?",
+    "summary": "Im Nordosten der USA ist der Herbst besonders schön. Doch warum leuchten die Bäume dort so bunt? Und wer hüpft auf Futtersuche von Ast zu Ast? Testen Sie sich auf die Schnelle in sieben Fragen.",
+    "author": "Von Klara Sonnenschein"
+  },
+  {
+    "type": "teaser-top",
+    "url": "https://www.sueddeutsche.de/wirtschaft/usa-china-handelsstreit-1.4307945",
+    "hasSeparatorLine": true,
+    "imageUrl": "https://media-cdn.sueddeutsche.de/image/sz.1.3692343",
+    "overline": "Waldrodung weltweit",
+    "title": "Ein Viertel der Wälder ist für immer verloren",
+    "summary": "Drei Millionen Quadratkilometer Wald wurden von 2001 bis 2015 weltweit gerodet. Einige, wie der Hambacher Forst, werden nie nachwachsen.",
+    "author": "Von Tina Sperling"
+  }
+]
