@@ -50,5 +50,9 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "dependencies": {
+    "rebass": "^3.0.1",
+    "styled-components": "^4.1.3"
   }
 }
